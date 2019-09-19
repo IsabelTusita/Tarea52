@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:text="R:" />
+
+    <SeekBar
+        android:id="@+id/rColor"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="0"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:text="G:" />
+
+    <SeekBar
+        android:id="@+id/gColor"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="0"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:text="B:" />
+
+    <SeekBar
+        android:id="@+id/bColor"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="0"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:text="B:" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="311dp"
+        android:layout_height="287dp" />
+
+</LinearLayout>
